@@ -1,0 +1,35 @@
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+host: 0.0.0.0
+port: 42222
+safe: true
+url: http://danbunker.org
+author: Dan Bunker
+
+# edit this section with your information
+# for a normal use at the base of the server change it to "/"
+baseurl: 
+title: Dan Bunker - Resume
+name: Dan Bunker
+email: dbunker@simplifile.com
+email_full: mailto:dbunker@simplifile.com
+website: danbunker.org
+website_full: http://danbunker.org
+github: ejsuncy
+twitter: ejsuncy
+tel: 800-460-5657 x5046
+tel_full: 800-460-5657
+google_maps: 'https://www.google.com/maps/place/Simplifile/@40.298103,-111.6647441,17z/data=!4m6!1m3!3m2!1s0x874d900bd7ab7a57:0xc2387a155e232d0d!2sSimplifile!3m1!1s0x874d900bd7ab7a57:0xc2387a155e232d0d'
+address: '4844 N 300 W #202'
+postcode: 84604
+city: Provo, UT
+country: US
+google_analytics: UA-47021101-8
+
+# needed for travis-ci build
+exclude: [vendor, build.sh]
